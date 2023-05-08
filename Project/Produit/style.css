@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(222, 231, 235);
+}
+
+
+
+.container
+{
+    overflow: hidden;
+    border: 2px solid black;
+    padding: 20px;
+    width: 650px;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+h1 {
+    color: rgb(82, 81, 81);
+    font-style: oblique;
+    width: 450px;
+    margin: auto;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+table {
+    text-align: center;
+}
+
+.tab
+{
+    float:left;
+}
+.tab-2
+{
+    margin-left: 50px;
+}
+.tab-2 input
+{
+    display: block;
+    margin-bottom: 10px;
+}   

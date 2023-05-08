@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    /* background: url("image/background.jpg"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: 100%; */
+    background-color: rgb(26, 76, 99);
+    justify-content: center;
+    color:rgb(240, 240, 240);
+    font-size: 10px;
+}
+
+
+.countdown {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 50px;
+}
+
+.count span{
+    font-size: 30px;
+    color: #cacaca;
+}
+
+.cont-time {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.time {
+    font-weight: bold;
+    padding: 16px ;
+    font-size: 40px;
+    border: 4px solid #96a8a7;
+    border-radius: 20px;
+    margin: 0 20px;
+}

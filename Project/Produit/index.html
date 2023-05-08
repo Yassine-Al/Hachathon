@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<h1>Trier Les Produits</h1>
+<div class="container">
+    <div class="tab tab-1">
+        <table id="table" border="1" cellpadding="5">
+            <tr>
+                <th>Numéro Produit</th>
+                <th>Nom Produit</th>
+                <th>Prix</th>
+                <th>Action</th>
+                </tr>
+            <tr>
+                <td>10</td>
+                <td>Pomme</td>
+                <td>12.45</td>
+                <td id="a">
+                    <a href="#" onclick="aff()">Editer</a> | <a href="#" onclick="sup()">Supprimer</a>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>Banane</td>
+                <td>17.55</td>
+                <td id="a">
+                    <a href="#" onclick="aff()">Editer</a> | <a href="#" onclick="sup()">Supprimer</a>
+                </td>
+            </tr>
+            <tr>
+                    <td>30</td>
+                    <td>Lait</td>
+                    <td>8.75</td>
+                    <td id="a">
+                        <a href="#" onclick="aff()">Editer</a> | <a href="#" onclick="sup()">Supprimer</a>
+                    </td>
+            </tr>
+        </table>
+    
+    </div>
+    <div class="tab tab-2">
+        <label for="num">Numéro</label> <input type="text" id="numero">
+        <label for="nom">Nom</label> <input type="text" id="nom">
+        <label for="note">Prix</label> <input type="text" id="note">
+        <button id="btn1" onclick="ajouter()"> Ajouter </button>
+        <button id="btn2" onclick="Modifier()"> Modifier </button>  
+    </div>
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

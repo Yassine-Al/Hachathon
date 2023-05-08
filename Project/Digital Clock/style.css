@@ -1,0 +1,45 @@
+body {
+    background-color: whitesmoke;
+
+}
+
+.container {
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    /* background-color: rgb(31,181,183); */
+    background: linear-gradient(to right bottom, #007673, #0e0066);
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+h1 {
+    position: relative;
+    bottom: 60px;
+    left: 0px;
+    font-size: 40px;
+    color: gainsboro;
+    text-decoration: underline;
+
+}
+
+#clock{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 80px;
+    bottom: 90px;
+    padding: 15px;
+    color: aliceblue;
+}
+#date{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 150px;
+    bottom: 60px;
+    padding: 15px;
+    color: aliceblue;
+}
